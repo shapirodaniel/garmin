@@ -11,6 +11,8 @@ This package allows Garmin Connect users to pull `Activities` run data and visua
 
 ![](./assets/garmin-connect-activities-download.png)
 
+> Note: Garmin doesn't add all activities data to the exported CSV by default. In order to export your complete activity history, you'll need to scroll down until the last recorded activity is reached, or until you're happy with the data range that's been rendered in Garmin Connect UI
+
 ## Getting started
 
 Sync this repo to your local devenv, then create a Python virtual environment and install from `requirements.txt`. If you're not already familiar with Python venv setup, bash/zsh users can add this helper fn to their shell profile and run it in the context of this repo
